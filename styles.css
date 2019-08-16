@@ -1,0 +1,95 @@
+body {
+    color: white !important;
+    background-color: black !important;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif !important;
+    margin: 0;
+  }
+
+  .main-container {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .col-sm {
+    padding: 0px 0px 20px 0px !important;
+  }
+
+  .skills {
+      padding: 0 4em 0 4em !important;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px !important;
+}
+
+ul {
+    list-style: none
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+} */
+
+h1 {
+    font-size: 4em !important;
+    font-weight: bold !important;
+}
+
+h2.header {
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 15px 0;
+    letter-spacing: 1.2px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+  }
+  
+  h2.header:after {
+    content: "";
+    margin-left: 10px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    border-bottom: 4px solid white;
+    overflow: hidden;
+    justify-content: space-around;
+  }
+
+  h3 {
+    font-weight: bold !important;
+}
+
+  h5 {
+      font-weight: bold !important;
+  }
+
+  h6 {
+    font-weight: bold !important;
+}
+
+.date {
+    /* font-weight: bold; */
+    font-size: 0.8em;
+}
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }

@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
     <title>Ryan Sinnott - Web Developer</title>
 </head>
 
@@ -12,168 +21,200 @@
 
     <!-- Header -->
     <div class="main-container">
-        <div class="title-card">
-            <h1>Ryan Sinnott</h1>
-            <h3>Web Developer</h3>
-            <p>After spending six years working in the property industry, I'm looking forward to putting my new-found
-                passion for code into practice. Articulate, flexible and self-motivated, my main objective is to expand
-                my evergrowing skillset and forge a career in web development.</p>
-            <ul>
-                <li>ryansinnott@hotmail.co.uk</li>
-                <li>778-814-6745</li>
-                <li>github/rsmsnot</li>
-                <li>Ryan Sinnott</li>
-                <li>Printable resume</li>
-            </ul>
-        </div>
-    </div>
-
-
-    <!-- SKILLS -->
-
-    <div class="skills">
-        <div>
-            <h2>Skills</h2>
+        <div class="content-section">
+            <div class="title-card">
+                <h1>Ryan Sinnott</h1>
+                <h3>Web Developer</h3>
+                <p>After spending six years working in the property industry, I'm looking forward to putting my
+                    new-found passion for code into practice. Articulate, flexible and self-motivated, my main objective
+                    is to expand my evergrowing skillset and forge a career in web development.</p>
+                <ul class="contact-info">
+                    <li> <i class="fas fa-envelope"></i> ryansinnott@hotmail.co.uk</li>
+                    <li><i class="fas fa-mobile-alt"></i> 778-814-6745</li>
+                    <li>
+                        <a href="https://github.com/rsmsnot/" target="_blank"><i class="fab fa-github"></i>
+                            github/rsmsnot</a>
+                    </li>
+                    <li><i class="fab fa-linkedin"></i> Ryan Sinnott</li>
+                    <li><i class="fas fa-print"></i> Printable resume</li>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <h5>Languages & Frameworks</h5>
-            <p>JavaScript, HTML/CSS/SASS, Node.js, jQuery, Bootstrap, React, Ruby on Rails</p>
-        </div>
+
+        <!-- SKILLS -->
+
 
         <div>
-            <h5>Systems & Databases</h5>
-            <p>Git/GitHub, MongoDB, PostgreSQL, Heroku</p>
-        </div>
-    </div>
-
-
-    <!-- PROJECTS -->
-
-    <div>
-        <div>
-            <h2>Projects</h2>
+            <h2 class="header">Skills</h2>
         </div>
 
-        <div>
-            <h5>Chatty App</h5>
-            <h5>July 2019</h5>
-            <p>A lightweight, single page chat application built using React, Websockets, Sass and NodeJS.</p>
-            <a href="https://github.com/rsmsnot/chatty-app" target="_blank">View on Github</a>
+        <div class="content-section">
+
+            <div class="col-sm skills">
+                <h6>Languages & Frameworks</h6>
+                <p>JavaScript, HTML/CSS/SASS, Node.js, jQuery, Bootstrap, React, Ruby on Rails</p>
+            </div>
+
+            <div class="col-sm skills">
+                <h6>Systems & Databases</h6>
+                <p>Git/GitHub, MongoDB, PostgreSQL, Heroku </p>
+            </div>
         </div>
 
-        <div>
-            <h5>Nolan</h5>
-            <h5>July 2019</h5>
-            <p>A resource wall for educational materials, in the mould of Pinterest, built using Javascript, Express,
-                EJS and Bootstrap.</p>
-            <a href="https://github.com/sdsog/midterm-lighthouse" target="_blank">View on Github</a>
-        </div>
+
+        <!-- PROJECTS -->
 
         <div>
-            <h5>Tweeter</h5>
-            <h5>June 2019</h5>
-            <p>A lightweight, single-page twitter clone, built using HTML5, jQuery, Node, Express and mongoDB.</p>
-            <a href="https://github.com/rsmsnot/tweeter" target="_blank">View on Github</a>
+            <h2 class="header">Projects</h2>
         </div>
 
-        <div>
-            <h5>Tiny App</h5>
-            <h5>June 2019</h5>
-            <p>A full stack web-application designed to allow users to shorten and share URLs, that I built using Node
-                and Express.</p>
-            <a href="https://github.com/rsmsnot/Tinyapp-Project" target="_blank">View on Github</a>
-        </div>
+        <div class="content-section">
+            <div class="content-section">
+                <div class="col-sm">
+                    <h6>Wander</h6>
+                    <p class="date">August 2019</p>
+                    <p>A resource to help users plan and visualise a trip/holiday, built using React, Rails and the
+                        Google Maps API </p>
+                    <a href="https://github.com/hungrypc/trip-plan" target="_blank">View on Github</a>
+                </div>
 
+                <div class="col-sm">
+                    <h6>Chatty App</h6>
+                    <p class="date">July 2019</p>
+                    <p>A lightweight, single page chat application built using React, Websockets, Sass and NodeJS.</p>
+                    <div class="hover_img">
+                        <a href="#">Preview<span><img src="./preview-images-gifs/gif2.gif" alt="image"
+                                    height="500" /></span></a>
+                    </div>
+                    <a href="https://github.com/rsmsnot/chatty-app" target="_blank">View on Github</a>
+                </div>
+
+                <div class="col-sm">
+                    <h6>Nolan</h6>
+                    <p class="date">July 2019</p>
+                    <p>A resource wall for educational materials, in the mould of Pinterest, built using Javascript,
+                        Express,
+                        EJS and Bootstrap.</p>
+                    <a href="https://github.com/sdsog/midterm-lighthouse" target="_blank">View on Github</a>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="col-sm">
+                    <h6>Tweeter</h6>
+                    <p class="date">June 2019</p>
+                    <p>A lightweight, single-page twitter clone, built using HTML5, jQuery, Node, Express and mongoDB.
+                    </p>
+                    <a href="https://github.com/rsmsnot/tweeter" target="_blank">View on Github</a>
+                </div>
+
+                <div class="col-sm">
+                    <h6>Tiny App</h6>
+                    <p class="date">June 2019</p>
+                    <p>A full stack web-application designed to allow users to shorten and share URLs, that I built
+                        using
+                        Node
+                        and Express.</p>
+                    <a href="https://github.com/rsmsnot/Tinyapp-Project" target="_blank">View on Github</a>
+                </div>
+            </div>
+        </div>
 
         <!-- EMPLOYMENT -->
 
         <div>
-            <h2>Employment History</h2>
+            <h2 class="header">Employment History</h2>
         </div>
 
-        <div>
-            <section class="employment">
-                <h4><span class='employment-title'>Senior Negotiator</span><span class='employment-link'>The
-                        Accommodating Company</span></h4>
-                <h5>June 2017 - May 2019</h5>
-                <h6>London, UK</h6>
-                <p>- Promoted to senior negotiator in March 2018.
-                    - I oversaw a small team of negotiators responsible for the letting and
-                    management of a portfolio of over 400 properties.
-                    - Additional responsibilities included liaising with Landlords, assessing
-                    properties, optimising rental amounts and drawing up agreements.</p>
-            </section>
+        <div class="content-section">
+            <div>
+                <section class="employment">
+                    <h5><span class='employment-title'>Senior Negotiator</span></h5>
+                    <h5><span class='employment-link'>The
+                            Accommodating Company</span></h5>
+                    <p class="date">June 2017 - May 2019, London, UK</p>
+                    <!-- <h6>London, UK</h6> -->
+                    <p>- Promoted to senior negotiator in March 2018.
+                        - I oversaw a small team of negotiators responsible for the letting and
+                        management of a portfolio of over 400 properties.
+                        - Additional responsibilities included liaising with Landlords, assessing
+                        properties, optimising rental amounts and drawing up agreements.</p>
+                </section>
 
-            <section class="employment">
-                <h4><span class='employment-title'>Negotiator</span><span class='employment-link'>The
-                        Accommodating Company</span></h4>
-                <h5>July 2014 - June 2017</h5>
-                <h6>London, UK</h6>
-                <p>I started as a junior negotiator for an independent letting agency in North
-                    London. My main responsibilities included the marketing, maintenance,
-                    administration and letting of a wide variety of commercial, industrial, and
-                    residential properties.</p>
-            </section>
+                <section class="employment">
+                    <h5><span class='employment-title'>Negotiator</span></h5>
+                    <h5><span class='employment-link'>The
+                            Accommodating Company</span></h5>
+                    <p class="date">July 2014 - June 2017, London, UK</p>
+                    <!-- <h6>London, UK</h6> -->
+                    <p>I started as a junior negotiator for an independent letting agency in North
+                        London. My main responsibilities included the marketing, maintenance,
+                        administration and letting of a wide variety of commercial, industrial, and
+                        residential properties.</p>
+                </section>
+            </div>
         </div>
 
 
         <!-- EDUCATION -->
 
         <div>
-            <h2>Education</h2>
+            <h2 class="header">Education</h2>
         </div>
 
-        <div>
-            <section>
-                <h4><span class='employment-title'>Web Development Bootcamp</span><span
-                        class='employment-link'>Lighthouse Labs</span></h4>
-                <h5>May 2019 - August 2019</h5>
-                <h6> Vancouver, BC</h6>
-                <p>A full-time immersive web development program which provided me with the data driven coding
-                    curriculum and mentorship to help launch my career. The curriculum covered topics such as
-                    JavaScript, React, Node.js, MongoDB, PostgreSQL, Ruby, Ruby on Rails, jQuery, HTML, CSS, and SASS.
-                </p>
-            </section>
+        <div class="content-section">
+            <div>
+                <section>
+                    <h5><span class='employment-title'>Web Development Bootcamp</span></h5>
+                    <h5><span class='employment-link'>Lighthouse Labs</span></h5>
+                    <p class="date">May 2019 - August 2019, Vancouver, BC</p>
+                    <!-- <h6> Vancouver, BC</h6> -->
+                    <p>A full-time immersive web development program which provided me with the data driven coding
+                        curriculum and mentorship to help launch my career. The curriculum covered topics such as
+                        JavaScript, React, Node.js, MongoDB, PostgreSQL, Ruby, Ruby on Rails, jQuery, HTML, CSS, and
+                        SASS.
+                    </p>
+                </section>
+            </div>
         </div>
-
 
         <!-- CHARITY WORK -->
 
         <div>
-            <h2>Charity Work</h2>
+            <h2 class="header">Charity Work</h2>
         </div>
 
-        <div>
-            <section>
-                <h4><span class='employment-title'>Charitable Consultant</span><span class='employment-link'>Voluntary
-                        Action Islington</span></h4>
-                <h5>September 2010- September 2011):</h5>
-                <h6>London, UK</h6>
-                <p>I was part of a small team responsible for arranging charitable collections
-                    around London, often managing the activities of 60+ volunteers.</p>
-            </section>
+        <div class="content-section">
+            <div>
+                <section>
+                    <h5><span class='employment-title'>Charitable Consultant</span></h5>
+                    <h5><span class='employment-link'>Voluntary Action Islington</span></h5>
+                    <p class="date">September 2010 - September 2011, London, UK</p>
+                    <p>I was part of a small team responsible for arranging charitable collections
+                        around London, often managing the activities of 60+ volunteers.</p>
+                </section>
 
-            <section>
-                <h4><span class='employment-title'>Senior Charity Rep</span><span
-                        class='employment-link'>Karnival</span></h4>
-                <h5>December 2011- December 2012):</h5>
-                <h6>London, UK</h6>
-                <p>Elected by my peers onto a small team of students that collectively raised
-                    £1.6 million for charity in a year – duties included:
-                    - Organising and coordinating weekly street collections in various cities
-                    across the UK for a range of charities, often managing 75+ students.
-                    - Representing various charities and volunteering at events like charity
-                    auctions, marathons, bazaars and fundraisers.
-                    - Organising and hosting fund-raising events such as concerts, nights
-                    out, auctions, football tournaments and sky diving days.</p>
-            </section>
+                <section>
+                    <h5><span class='employment-title'>Senior Charity Rep</span></h5>
+                    <h5><span class='employment-link'>Karnival</span></h5>
+                    <p class="date">December 2011 - December 2012, London, UK</p>
+                    <p>Elected by my peers onto a small team of students that collectively raised
+                        £1.6 million for charity in a year – duties included:
+                        - Organising and coordinating weekly street collections in various cities
+                        across the UK for a range of charities, often managing 75+ students.
+                        - Representing various charities and volunteering at events like charity
+                        auctions, marathons, bazaars and fundraisers.
+                        - Organising and hosting fund-raising events such as concerts, nights
+                        out, auctions, football tournaments and sky diving days.</p>
+                </section>
+            </div>
         </div>
 
 
 
 
-
+    </div>
     </div>
 
 </body>
