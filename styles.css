@@ -34,6 +34,20 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0px !important;
+    margin-top: 20px;
+    line-height: 2em;
+}
+
+.profile-pic {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.profile-about {
+    margin-top: 30px;
 }
 
 .contact-details {
@@ -103,25 +117,43 @@ h2.header {
 }
 
 .hover_img a span { 
-    /* position:absolute; 
+    position:absolute; 
     display:none; 
     z-index:99;
-    left:50%; */
-    /* -webkit-transform: translateX(-50%);
+    left:50%; 
+    -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    transform: translateX(-50%); */
+    transform: translateX(-50%);
     position: fixed;
    right: 15vw;
    top: 15vh;
    display: none;
-   max-width: 60vw;
+   max-width: 80vw;
    z-index: 3;
-   max-height: 80vh;
+   max-height: 100vh;
 }
 
 
 .hover_img a:hover span { 
     display:block; 
+}
+
+a:hover:after {
+    content: "";
+    margin: 0;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 100%;
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/870px-Arsenal_FC.svg.png); */
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
