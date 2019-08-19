@@ -39,7 +39,7 @@ body {
 }
 
 .profile-pic {
-    margin-top: 10px;
+    margin-top: 35px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -67,6 +67,10 @@ ul {
 h1 {
     font-size: 4em !important;
     font-weight: bold !important;
+}
+
+.name {
+    margin-top: 20px !important;
 }
 
 h2.header {
