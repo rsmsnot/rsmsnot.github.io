@@ -10,7 +10,7 @@ body {
     max-width: 900px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-right: 5px;
 }
 
@@ -175,6 +175,11 @@ a {
     border-right: 1px solid darkslategray;
     border-bottom: 1px solid darkslategray;
     border-left: 1px solid darkslategray;
+  }
+
+  .button:hover {
+      background-color: white;
+      color: darkslategray
   }
 
 
