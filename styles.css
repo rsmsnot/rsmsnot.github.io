@@ -44,7 +44,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0px !important;
-    margin-top: 35px;
+    margin-top: 25px;
     line-height: 2em;
 }
 
@@ -91,7 +91,7 @@ h2.header {
     font-size: 30px;
     line-height: 24px;
     font-weight: 700;
-    margin: 15px 0;
+    margin-bottom: 15px 0;
     letter-spacing: 1.2px;
     text-align: left;
     overflow: hidden;
